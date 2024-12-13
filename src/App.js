@@ -1559,7 +1559,7 @@ const App = () => {
               }}
             >
               <h1>Cookid</h1>
-              <p>Kumpulan Resep Masakan Indonesia</p>
+              <p>Resep Masakan Indonesia</p>
             </div>
             <SearchBar 
               value={searchQuery}
