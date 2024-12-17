@@ -413,24 +413,26 @@ body {
   position: fixed;
   top: 1.5rem;
   left: 1.5rem;
-  background: var(--primary);
+  background: rgb(255, 255, 255);
   border: none;
   padding: 0.8rem 1.2rem;
   border-radius: 8px;
   font-size: 1rem;
   font-weight: 500;
-  color: white;
+  color: rgb(0, 0, 0);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: background 0.2s, transform 0.2s;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .back-button:hover {
-  background: var(--secondary);
+  background: rgb(255, 255, 255);
   transform: translateY(-2px);
 }
 
 .back-button:active {
+  background: rgb(255, 255, 255);
   transform: scale(0.95);
 }
 
