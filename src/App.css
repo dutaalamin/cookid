@@ -169,6 +169,11 @@ body {
 .recipe-card {
   background: white;
   cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.recipe-card:active {
+  transform: scale(0.95);
 }
 
 .recipe-image {
@@ -206,8 +211,11 @@ body {
 }
 
 .recipe-detail-image {
-  height: 400px;
-  margin: -2rem -2rem 2rem;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 }
 
 .recipe-detail-info h2 {
@@ -354,6 +362,10 @@ body {
   transform: translateY(-2px);
 }
 
+.app-button:active {
+  transform: scale(0.95);
+}
+
 .app-button i {
   font-size: 1.5rem;
 }
@@ -401,18 +413,25 @@ body {
   position: fixed;
   top: 1.5rem;
   left: 1.5rem;
-  background: white;
+  background: var(--primary);
   border: none;
-  padding: 0.6rem 1.2rem;
+  padding: 0.8rem 1.2rem;
   border-radius: 8px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
-  color: var(--text);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.2s, transform 0.2s;
+  cursor: pointer;
 }
 
 .back-button:hover {
-  transform: translateX(-5px);
+  background: var(--secondary);
+  transform: translateY(-2px);
+}
+
+.back-button:active {
+  transform: scale(0.95);
 }
 
 .back-button span {
@@ -657,4 +676,43 @@ body {
   .footer-content {
     grid-template-columns: 1fr;
   }
+}
+
+/* Efek klik pada kategori kartu */
+.category-card {
+  background: transparent;
+  padding: 0.6rem 1.2rem;
+  border-radius: 100px;
+  border: 1px solid #eaeaea;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.category-card:active {
+  transform: scale(0.95); /* Mengurangi ukuran saat diklik */
+}
+
+/* Efek klik pada gambar resep */
+.recipe-card {
+  background: white;
+  cursor: pointer;
+  transition: transform 0.2s; /* Tambahkan transisi */
+}
+
+.recipe-card:active {
+  transform: scale(0.95); /* Mengurangi ukuran saat diklik */
+}
+
+/* Efek klik pada tombol kembali */
+.back-button {
+  transition: background 0.2s, transform 0.2s; /* Tambahkan transisi */
+}
+
+.back-button:active {
+  transform: scale(0.95); /* Mengurangi ukuran saat diklik */
+}
+
+/* Efek klik pada tombol di footer */
+.app-button:active {
+  transform: scale(0.95); /* Mengurangi ukuran saat diklik */
 }
