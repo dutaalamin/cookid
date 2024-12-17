@@ -49,9 +49,9 @@ const categories = [
 const recipes = [
   {
     id: 1,
-    title: 'Nasi Goreng Spesial',
+    title: 'Nasi Goreng',
     category: 'nasi',
-    image: 'https://asset.kompas.com/crops/VcgvggZKE2VHqIAUp1pyHFXXYCs=/202x66:1000x599/1200x800/data/photo/2023/05/07/6456a450d2edd.jpg',
+    image: 'https://www.masakapahariini.com/wp-content/uploads/2021/07/Nasi-Goreng-Spesial-Ayam-Kecombrang.jpg',
     ingredients: [
       '2 piring nasi putih',
       '2 butir telur',
@@ -1325,25 +1325,24 @@ const recipes = [
   },
   {
     id: 59,
-    title: 'Telur Balado',
+    title: 'Bakwan',
     category: 'jajanan',
-    image: 'https://kurio-img.kurioapps.com/21/03/03/e8954a8a-c63d-4a80-a1ad-154473c6f4c4.jpe',
+    image: 'https://i.ytimg.com/vi/5qv20xT3Yjs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBQfz2GqPizW9s4SnkElMq4j9e90g',
     ingredients: [
-      '6 butir telur',
-      '15 cabai merah',
-      '5 cabai rawit',
-      '8 siung bawang merah',
-      '4 siung bawang putih',
-      'Tomat',
-      'Daun jeruk',
-      'Garam dan gula'
+      '200g tepung terigu',
+      '100g sayuran (kol, wortel, dll)',
+      '1 butir telur',
+      '1 sdt baking powder',
+      'Garam secukupnya',
+      'Air secukupnya',
+      'Minyak untuk menggoreng'
     ],
     instructions: [
-      'Rebus telur hingga matang',
-      'Goreng telur hingga kecokelatan',
-      'Tumis bumbu halus',
-      'Masukkan telur',
-      'Masak hingga bumbu meresap'
+      'Campur tepung terigu, baking powder, dan garam dalam wadah.',
+      'Tambahkan telur dan air sedikit-sedikit hingga adonan kental.',
+      'Masukkan sayuran yang sudah dipotong kecil-kecil ke dalam adonan.',
+      'Panaskan minyak dalam wajan, ambil satu sendok adonan dan goreng hingga kecokelatan.',
+      'Angkat dan tiriskan, sajikan hangat.'
     ]
   },
   {
@@ -1559,7 +1558,7 @@ const App = () => {
               }}
             >
               <h1>Cookid</h1>
-              <p>Resep Masakan Indonesia</p>
+              <p>Kumpulan Resep Masakan Indonesia</p>
             </div>
             <SearchBar 
               value={searchQuery}
