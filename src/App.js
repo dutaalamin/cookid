@@ -1681,13 +1681,12 @@ const About = () => (
   <div className="about-content">
     <div className="about-header">
       <h2>Tentang Cookid</h2>
-      <p className="tagline">Memasak Jadi Lebih Mudah</p>
     </div>
     
     <div className="about-sections">
       <section className="about-section">
         <h3>Resep Digital</h3>
-        <p>Platform resep modern yang membantu Anda menemukan dan memasak hidangan Indonesia favorit dengan mudah. Didesain untuk pemula hingga chef berpengalaman.</p>
+        <p>Platform resep modern yang membantu Anda menemukan dan memasak hidangan Indonesia favorit dengan mudah.</p>
       </section>
 
       <section className="about-section">
