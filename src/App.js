@@ -1445,10 +1445,6 @@ const App = () => {
               </form>
             </div>
           </div>
-
-          <div className="footer-bottom">
-            <p className="footer-copyright">&copy; 2025 Cookid. All rights reserved.</p>
-          </div>
         </footer>
       </div>
     </Router>
